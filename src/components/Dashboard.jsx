@@ -7,7 +7,7 @@ class Dashboard extends Component {
     }
      
     initViz() {
-        const vizUrl = 'https://public.tableau.com/views/COVID-19DKIJakartaDashboard1_6/COVID-19EffectsonCelerates?:language=en&:display_count=y&:origin=viz_share_link';
+        const vizUrl = 'https://public.tableau.com/views/Dashboard_Overview/NelayanvsTeknologi?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link';
         const vizContainer = this.vizContainer;
         let viz = new window.tableau.Viz(vizContainer, vizUrl)
     }
