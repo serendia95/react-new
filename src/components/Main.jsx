@@ -7,8 +7,8 @@ class Main extends React.Component {
     render () {
         return (
             <div className="main">
-                <h1 className="title text-center">Title</h1>
-                <About />
+                <h1 className="title text-center">Pemanfaatan Secara Berkelanjutan Sumber Daya Laut Indonesia</h1>
+                <About />               
                 <Dashboard />
                 <ContactForm />
             </div>

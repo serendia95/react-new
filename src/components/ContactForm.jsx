@@ -59,7 +59,7 @@ class ContactForm extends React.Component {
                 <div className="container contact-form">
                     <div className="row">
                         <div className="col text-center about-title">
-                                <h4>Contact Us!</h4>
+                                <h3>Contact Us!</h3>
                         </div>
                     </div>
                     <hr></hr>
@@ -72,7 +72,7 @@ class ContactForm extends React.Component {
                 <div className="container contact-form" style={{paddingBottom:"100px"}}>
                     <div className="row">
                         <div className="col text-center about-title" id="contactformx">
-                                <h4>Contact Us!</h4>
+                                <h3>Contact Us!</h3>
                         </div>
                     </div>
                     <form onSubmit={() => {this.handleSubmit()}} 
