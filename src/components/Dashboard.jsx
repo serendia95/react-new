@@ -9,7 +9,7 @@ class Dashboard extends Component {
                     <h3>Dashboard</h3>
                 </div>
                 <div className='tableau-items text-center' style={{marginTop:"40px", marginBottom:"40px"}}>
-                    <iframe src="https://public.tableau.com/views/DashboardKelautandanPerikananNasional/DashboardOverview?:language=en&:display_count=y&:origin=viz_share_link&:showVizHome=no&:embed=true" width="68%" height="840px">
+                    <iframe src="https://public.tableau.com/views/DashboardKelautandanPerikananNasional/DashboardOverview?:language=en&:display_count=y&:origin=viz_share_link&:showVizHome=no&:embed=true" width="68%" height="840px" id="tabtab1" style={{maxWidth:"905px"}}>
                     </iframe>
                 </div>
                 <div className="col text-center about-dashboard">
@@ -22,7 +22,7 @@ class Dashboard extends Component {
                     </p>
                 </div>
                 <div className='tableau-items text-center' style={{marginTop:"40px"}}>
-                    <iframe className='tabtab2' src="https://public.tableau.com/views/Dashboard_Overview/NelayanvsTeknologi?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link&:showVizHome=no&:embed=true" width="68%" height="840px">
+                    <iframe src="https://public.tableau.com/views/Dashboard_Overview/NelayanvsTeknologi?:language=en&:display_count=y&:toolbar=n&:origin=viz_share_link&:showVizHome=no&:embed=true" width="68%" height="840px" id="tabtab2" style={{maxWidth:"905px"}}>
                     </iframe>
                 </div>
             </div>
